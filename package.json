@@ -1,0 +1,40 @@
+{
+  "name": "@xirelogy/vany-icon-element",
+  "version": "1.0.0",
+  "description": "Vany common icons from ElementPlus",
+  "keywords": [
+    "vany",
+    "icons",
+    "element-plus"
+  ],  
+  "type": "module",
+  "main": "dist/vany-icon-element.umd.cjs",
+  "module": "dist/vany-icon-element.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/vany-icon-element.umd.cjs",
+      "import": "./dist/vany-icon-element.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build && vue-tsc"
+  },
+  "peerDependencies": {
+    "@element-plus/icons-vue": "^2.3",
+    "vue": "^3.4"
+  },
+  "devDependencies": {
+    "@babel/types": "^7.24.9",
+    "@types/node": "^18.17.5",
+    "@vue/eslint-config-typescript": "^12.0.0",
+    "typescript": "5.5",
+    "vite": "^4.4.5",
+    "vite-svg-loader": "^5.1.0",
+    "vue-tsc": "^2.0"
+  }
+}
