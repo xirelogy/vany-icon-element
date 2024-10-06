@@ -7,6 +7,10 @@
     "icons",
     "element-plus"
   ],  
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xirelogy/vany-icon-element"
+  },    
   "type": "module",
   "main": "dist/vany-icon-element.umd.cjs",
   "module": "dist/vany-icon-element.js",
